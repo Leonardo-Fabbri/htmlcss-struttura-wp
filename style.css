@@ -5,17 +5,18 @@
 }
 
 .container {
-  width: 70%;
+  width: 50%;
   height: 100vh;
   margin: 0 auto;
-  background-color: lightgray;
+  background-color: white;
 }
 
 
 .menù{
   width: 100%;
-  height: 10vh;
+  height: 5vh;
   background-color: yellow;
+  border-radius: 4px;
 }
 
 main::after {
@@ -29,12 +30,13 @@ main::after {
   height: 35vh;
   background-color: lightgreen;
   margin-top: 1vh;
+  border-radius: 4px;
 }
 
 .blocco-float {
   width: 100%;
-  height: 46vh;
-  background-color: green;
+  height: 50vh;
+  background-color: white;
   margin-top: 1vh;
   float: left;
 }
@@ -47,22 +49,25 @@ main::after {
   height: 6vh;
   background-color: rgb(0,225,0);
   margin-bottom: 1%;
+  border-radius: 4px;
 }
 
 .sinistra-float ,
 .destra-float {
   width: 25%;
-  height: 37vh;
+  height: 43vh;
   background-color: rgb(150,225,0);
   margin-bottom: 2vh;
+  border-radius: 4px;
 }
 
 
 .centro-float {
   width: 46%;
-  height: 37vh;
+  height: 43vh;
   background-color: rgb(150,225,150);
   margin: 0 2%;
+  border-radius: 4px;
 }
 
 
@@ -70,6 +75,7 @@ footer {
   width: 100%;
   height: 5vh;
   background-color: red;
-  margin-top: 1vh;
+  margin-top: 2vh;
+  border-radius: 4px;
   /* display: inline-block */
 }
